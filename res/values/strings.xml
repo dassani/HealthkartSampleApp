@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Healthkart Trial</string>
+    <string name="action_select_brands">Select Brands</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="hello">Hello World, SwipeReloadListViewActivity!</string>
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">Ready to load</string>
+    <string name="xlistview_header_hint_loading">Loading, please wait...</string>
+    <string name="xlistview_header_last_time">Last time you refreshed: </string>
+    <string name="xlistview_footer_hint_normal">Pull Up to refresh</string>
+    <string name="xlistview_footer_hint_no_more_result">No more results</string>
+    <string name="xlistview_footer_hint_ready">Ready to load</string>
+    <string name="select_brands">Select Brands</string>
+    <string name="stringMRP">MRP: </string>
+    <string name="stringDiscount">Discount: </string>
+    <string name="stringOfferPrice">Offer Price: </string>
+    <string name="strSearchQueryStringHint">Search, Eg: Whey, Protein, Vitamins..</string>
+    <string name="strNoResultsFound">No results found. Please search with a different criteria.</string>
+    <string name="strErrorInSearch">Something went wrong, please try to search again!</string>
+    
+</resources>

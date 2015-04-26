@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="title">18dp</dimen>
+    <dimen name="mrp">12dip</dimen>
+    <dimen name="discount">13dip</dimen>
+    <dimen name="price">16dip</dimen>
+
+</resources>

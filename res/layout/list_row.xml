@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Item Title -->
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Ayurvedic Facewash herbal care ginger olive 250 ml"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <!-- Offer Price -->
+
+    <LinearLayout
+        android:id="@+id/llOfferPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stringOfferPrice"
+            android:textColor="@color/green"
+            android:textSize="@dimen/price" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100.0"
+            android:textColor="@color/green"
+            android:textSize="@dimen/price" />
+    </LinearLayout>
+
+    <!-- Discount -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llOfferPrice"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stringDiscount"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/discount" />
+
+        <TextView
+            android:id="@+id/tvDiscount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/discount" />
+    </LinearLayout>
+
+    <!-- MR Price -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stringMRP" />
+
+        <TextView
+            android:id="@+id/tvMRP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="150.0"
+            android:textSize="@dimen/mrp" />
+    </LinearLayout>
+
+</RelativeLayout>
